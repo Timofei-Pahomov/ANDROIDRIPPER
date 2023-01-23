@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".siz"
+    android:orientation="vertical">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#8BC34A"
+            android:onClick="goBack"
+            android:text="Назад"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Прежде чем начать сборку мебели, необходимо внимательно ознакомиться с инструкцией, в которой изложена подробная схема и комплектация деталей. Не стоит доставать все сразу из упаковки, так можно затруднить работу.
+Перед началом сборки следует проверить исправность инструмента, как ручного, так и электрического.
+Рабочее место должно быть просторным, чтобы лишние предметы не мешали рабочему процессу и не создавали препятствий для безопасной работы.
+Перед тем, как приступить к сборке панелей, необходимо убедиться в правильности их расположения.
+Наличие всего набора инструментов и умение работать с ним – немаловажные требования. Это могут быть уголки, разметка, рулетка, уровень, молоток, набор отверток и различные ключи.
+В процессе эксплуатации современных электрических аппаратов, которые могут понадобиться, когда собираются угловые стенки, важно помнить о технике безопасности при работе с ними. Так, к примеру, модульные угловые стенки собираются при помощи шурупов, которые закручиваются шуруповертами. Достоинство таких стенок в том, что они легкие и компактные, поэтому легки в сборке. Кроме этого, при монтаже применяются лобзики для того, чтобы «подогнать» размер под нужные параметры.
+
+Сборка мебели на производстве также требует соблюдения правил техники безопасности. Работа с использованием более сложных аппаратов и инструментов требует особого внимания. Все конвейеры должны быть заземлены, а механизмы - иметь защитные устройства, которые не допустят зажатия рук. Пневматические машины для сборки деталей также должны иметь регулирующие устройства, а все остальные органы управления устроены таким образом, чтобы технику невозможно было случайно включить.
+
+Выполнение простых правил и рекомендаций станет гарантией того, что здоровье свое и окружающих будет в безопасности, а мебель прослужит долго."/>
+
+
+
+    </ScrollView>
+
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
